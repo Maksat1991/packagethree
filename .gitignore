@@ -1,0 +1,36 @@
+# IDE, editor related
+*swp
+.idea
+.vscode
+
+# custom folders
+/ztmp/
+/vendor/
+
+# app binaries
+/cmd/main/main
+/cmd/main/app
+/dist
+/cmd/test_pcaps/test_pcaps
+/cmd/test_reassemble/test_reassemble
+/cmd/testclient/testclient
+/cmd/testserver/testserver
+/cmd/testtasks/testtasks
+/cmd/tmp/
+
+*.txt
+key.pem
+
+# lmdb files created after running tests
+*.mdb
+
+.DS_Store
+
+main
+
+/dump/
+
+*.pcapng
+app
+*.out
+config-prod.yml
